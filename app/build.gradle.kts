@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.appweek05"
+    namespace = "com.example.week05ex"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.appweek05"
+        applicationId = "com.example.week05ex"
         minSdk = 27
         targetSdk = 36
         versionCode = 1
@@ -41,7 +41,7 @@ dependencies {
     implementation("androidx.core:core-ktx:1.15.0")
     //implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation("androidx.lifecycle:lifecycle-runtime-compose:2.8.7")
-
+    implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
